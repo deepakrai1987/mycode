@@ -1,0 +1,35 @@
+command 
+
+1- smbstatus --shares
+
+ 
+
+to  check connected users to sambs server
+
+ 
+
+2- pdbedit -L
+
+ 
+
+to check how many samba users are created
+
+3- useradd deepak
+
+   passwd deepak
+
+ 
+
+provide password here password
+
+ 
+
+4- smbpasswd -a username 
+
+   now enter password 
+
+ 
+
+to create samba user in samba
+ 
+
